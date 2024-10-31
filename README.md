@@ -14,6 +14,7 @@ This project is a test automation framework using Java, Selenium, Maven and Test
 - Selenium
 - TestNG
 - Allure
+- Web Browsers : Chrome, Edge and Mozilla Firefox
 
 ## Modules
 The following modules are covered in the automation suite:
@@ -22,6 +23,11 @@ The following modules are covered in the automation suite:
 3.	Add to Cart: Verify the user can add products to the shopping cart and confirms that the cart updates accurately.
 4.	Personal Information Entry: Verify that the users can enter personal information during the checkout process.
 5.	Checkout: Verify the end-to-end checkout process, ensuring that users can successfully complete a purchase.
+
+## Steps to run
+- Open project in Eclipse IDE.
+- In 'Project Explorer', right click on testng.xml and select Run As-> TestNG suite.
+Now automated test execution will begin
 
 ## Test Results
 - The folder 'test_result' contains a video recording and screenshots of the test.
