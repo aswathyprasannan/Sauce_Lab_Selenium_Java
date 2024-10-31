@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Suite Regression Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.SauceYourInfoTest">
+        <methods>
+          <include name="close"/>
+          <include name="AddYourInformation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.SauceYourInfoTest -->
+      <class name="testCases.SauceCheckoutTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="Checkout"/>
+        </methods>
+      </class> <!-- testCases.SauceCheckoutTest -->
+      <class name="testCases.SauceProductTest">
+        <methods>
+          <include name="close"/>
+          <include name="LoginSubmission"/>
+          <include name="Product"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.SauceProductTest -->
+      <class name="testCases.SauceAddToCartTest">
+        <methods>
+          <include name="ProductAddToCart"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCases.SauceAddToCartTest -->
+      <class name="testCases.SauceLoginTest">
+        <methods>
+          <include name="LoginSubmission"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCases.SauceLoginTest -->
+    </classes>
+  </test> <!-- Test Suite Regression Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

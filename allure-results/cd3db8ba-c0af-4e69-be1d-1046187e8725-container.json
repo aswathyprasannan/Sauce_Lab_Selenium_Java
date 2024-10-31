@@ -1,0 +1,1 @@
+{"uuid":"cd3db8ba-c0af-4e69-be1d-1046187e8725","name":"testCases.SauceAddToCartTest","children":["2ea36acb-3214-43e9-b658-69591dcf1de0"],"befores":[],"afters":[{"name":"close","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730412231717,"stop":1730412233186}],"links":[],"start":1730412173601,"stop":1730412255060}

@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Aswat\eclipse-workspace\sauce_lab\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceYourInfoTest" class="method navigator-link" hash-for-method="AddYourInformation">AddYourInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceYourInfoTest" class="method navigator-link" hash-for-method="AddYourInformation">AddYourInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceYourInfoTest" class="method navigator-link" hash-for-method="AddYourInformation">AddYourInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceCheckoutTest" class="method navigator-link" hash-for-method="Checkout">Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceCheckoutTest" class="method navigator-link" hash-for-method="Checkout">Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceCheckoutTest" class="method navigator-link" hash-for-method="Checkout">Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(performance_glitch_user, secret_sauce)">LoginSubmission(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(standard_user, secret_sauce)">LoginSubmission(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(problem_user, secret_sauce)">LoginSubmission(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(locked_out_user, secret_sauce)">LoginSubmission(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="LoginSubmission">LoginSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(locked_out_user, secret_sauce)">LoginSubmission(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(performance_glitch_user, secret_sauce)">LoginSubmission(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="LoginSubmission">LoginSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(standard_user, secret_sauce)">LoginSubmission(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(problem_user, secret_sauce)">LoginSubmission(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(locked_out_user, secret_sauce)">LoginSubmission(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="LoginSubmission">LoginSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(performance_glitch_user, secret_sauce)">LoginSubmission(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(problem_user, secret_sauce)">LoginSubmission(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceLoginTest" class="method navigator-link" hash-for-method="LoginSubmission(standard_user, secret_sauce)">LoginSubmission(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="Product">Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="Product">Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceProductTest" class="method navigator-link" hash-for-method="Product">Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceAddToCartTest" class="method navigator-link" hash-for-method="ProductAddToCart">ProductAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceAddToCartTest" class="method navigator-link" hash-for-method="ProductAddToCart">ProductAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SauceAddToCartTest" class="method navigator-link" hash-for-method="ProductAddToCart">ProductAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SauceAddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductAddToCart">
+                  </a> <!-- ProductAddToCart -->
+                  <span class="method-name">ProductAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductAddToCart">
+                  </a> <!-- ProductAddToCart -->
+                  <span class="method-name">ProductAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductAddToCart">
+                  </a> <!-- ProductAddToCart -->
+                  <span class="method-name">ProductAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SauceProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission">
+                  </a> <!-- LoginSubmission -->
+                  <span class="method-name">LoginSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission">
+                  </a> <!-- LoginSubmission -->
+                  <span class="method-name">LoginSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission">
+                  </a> <!-- LoginSubmission -->
+                  <span class="method-name">LoginSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product">
+                  </a> <!-- Product -->
+                  <span class="method-name">Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product">
+                  </a> <!-- Product -->
+                  <span class="method-name">Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product">
+                  </a> <!-- Product -->
+                  <span class="method-name">Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SauceYourInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddYourInformation">
+                  </a> <!-- AddYourInformation -->
+                  <span class="method-name">AddYourInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddYourInformation">
+                  </a> <!-- AddYourInformation -->
+                  <span class="method-name">AddYourInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddYourInformation">
+                  </a> <!-- AddYourInformation -->
+                  <span class="method-name">AddYourInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SauceCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout">
+                  </a> <!-- Checkout -->
+                  <span class="method-name">Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout">
+                  </a> <!-- Checkout -->
+                  <span class="method-name">Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout">
+                  </a> <!-- Checkout -->
+                  <span class="method-name">Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SauceLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(performance_glitch_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(standard_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(standard_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(problem_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(problem_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(locked_out_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(locked_out_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(locked_out_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(locked_out_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(performance_glitch_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(standard_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(standard_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(problem_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(problem_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(locked_out_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(locked_out_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(performance_glitch_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(problem_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(problem_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSubmission(standard_user, secret_sauce)">
+                  </a> <!-- LoginSubmission(standard_user, secret_sauce) -->
+                  <span class="method-name">LoginSubmission</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Aswat\eclipse-workspace\sauce_lab\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Suite Regression Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SauceLoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceAddToCartTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceYourInfoTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceCheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Suite Regression Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Suite Regression Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SauceLoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceAddToCartTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceYourInfoTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceCheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Suite Regression Firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Suite Regression Edge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SauceLoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceProductTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceAddToCartTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceYourInfoTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SauceCheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Suite Regression Edge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Suite Regression Chrome (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test Suite Regression Firefox (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test Suite Regression Edge (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Checkout')
+data.setCell(0, 2, 'testCases.SauceCheckoutTest')
+data.setCell(0, 3, 17122);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Checkout')
+data.setCell(1, 2, 'testCases.SauceCheckoutTest')
+data.setCell(1, 3, 16466);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Checkout')
+data.setCell(2, 2, 'testCases.SauceCheckoutTest')
+data.setCell(2, 3, 15660);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginSubmission')
+data.setCell(3, 2, 'testCases.SauceLoginTest')
+data.setCell(3, 3, 11809);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginSubmission')
+data.setCell(4, 2, 'testCases.SauceLoginTest')
+data.setCell(4, 3, 7444);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginSubmission')
+data.setCell(5, 2, 'testCases.SauceLoginTest')
+data.setCell(5, 3, 6590);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginSubmission')
+data.setCell(6, 2, 'testCases.SauceLoginTest')
+data.setCell(6, 3, 6583);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddYourInformation')
+data.setCell(7, 2, 'testCases.SauceYourInfoTest')
+data.setCell(7, 3, 5793);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddYourInformation')
+data.setCell(8, 2, 'testCases.SauceYourInfoTest')
+data.setCell(8, 3, 5470);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginSubmission')
+data.setCell(9, 2, 'testCases.SauceLoginTest')
+data.setCell(9, 3, 4943);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ProductAddToCart')
+data.setCell(10, 2, 'testCases.SauceAddToCartTest')
+data.setCell(10, 3, 4584);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginSubmission')
+data.setCell(11, 2, 'testCases.SauceProductTest')
+data.setCell(11, 3, 4411);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginSubmission')
+data.setCell(12, 2, 'testCases.SauceLoginTest')
+data.setCell(12, 3, 4107);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginSubmission')
+data.setCell(13, 2, 'testCases.SauceLoginTest')
+data.setCell(13, 3, 3776);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'AddYourInformation')
+data.setCell(14, 2, 'testCases.SauceYourInfoTest')
+data.setCell(14, 3, 3704);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ProductAddToCart')
+data.setCell(15, 2, 'testCases.SauceAddToCartTest')
+data.setCell(15, 3, 3424);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Product')
+data.setCell(16, 2, 'testCases.SauceProductTest')
+data.setCell(16, 3, 3242);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ProductAddToCart')
+data.setCell(17, 2, 'testCases.SauceAddToCartTest')
+data.setCell(17, 3, 2700);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'LoginSubmission')
+data.setCell(18, 2, 'testCases.SauceLoginTest')
+data.setCell(18, 3, 2563);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'LoginSubmission')
+data.setCell(19, 2, 'testCases.SauceProductTest')
+data.setCell(19, 3, 2537);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Product')
+data.setCell(20, 2, 'testCases.SauceProductTest')
+data.setCell(20, 3, 2400);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Product')
+data.setCell(21, 2, 'testCases.SauceProductTest')
+data.setCell(21, 3, 2269);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'LoginSubmission')
+data.setCell(22, 2, 'testCases.SauceLoginTest')
+data.setCell(22, 3, 2025);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'LoginSubmission')
+data.setCell(23, 2, 'testCases.SauceProductTest')
+data.setCell(23, 3, 1955);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'LoginSubmission')
+data.setCell(24, 2, 'testCases.SauceLoginTest')
+data.setCell(24, 3, 1653);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'LoginSubmission')
+data.setCell(25, 2, 'testCases.SauceLoginTest')
+data.setCell(25, 3, 1210);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'LoginSubmission')
+data.setCell(26, 2, 'testCases.SauceLoginTest')
+data.setCell(26, 3, 1208);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">7115 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">11585 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">16376 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">22550 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(standard_user, secret_sauce)</span>
+                <span class="method-start">32930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">40116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(problem_user, secret_sauce)</span>
+                <span class="method-start">51981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(locked_out_user, secret_sauce)</span>
+                <span class="method-start">56946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">59520 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission</span>
+                <span class="method-start">60579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Product</span>
+                <span class="method-start">65012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">68260 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ProductAddToCart</span>
+                <span class="method-start">68813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">73403 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddYourInformation</span>
+                <span class="method-start">73885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">79688 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Checkout</span>
+                <span class="method-start">80102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">97230 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">97834 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">104858 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">110372 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">116867 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">124027 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(standard_user, secret_sauce)</span>
+                <span class="method-start">132053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">135909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(problem_user, secret_sauce)</span>
+                <span class="method-start">142509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(locked_out_user, secret_sauce)</span>
+                <span class="method-start">144176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">145397 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission</span>
+                <span class="method-start">147120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Product</span>
+                <span class="method-start">149087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">151428 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ProductAddToCart</span>
+                <span class="method-start">153230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">155947 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddYourInformation</span>
+                <span class="method-start">157418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">161129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Checkout</span>
+                <span class="method-start">162405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">178070 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">179312 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">182892 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">187466 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">193344 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">198805 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(standard_user, secret_sauce)</span>
+                <span class="method-start">204013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">208135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(problem_user, secret_sauce)</span>
+                <span class="method-start">215583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission(locked_out_user, secret_sauce)</span>
+                <span class="method-start">217623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">218837 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSubmission</span>
+                <span class="method-start">219276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Product</span>
+                <span class="method-start">221818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">224224 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ProductAddToCart</span>
+                <span class="method-start">224818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">228245 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceYourInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddYourInformation</span>
+                <span class="method-start">228615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">234089 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SauceCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Checkout</span>
+                <span class="method-start">234492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">250961 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

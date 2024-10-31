@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-31T22:01:15 GMT" name="Suite" finished-at="2024-10-31T22:05:27 GMT" duration-ms="251420">
+    <groups>
+    </groups>
+    <test started-at="2024-10-31T22:01:15 GMT" name="Test Suite Regression Chrome" finished-at="2024-10-31T22:02:53 GMT" duration-ms="97737">
+      <class name="testCases.SauceAddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceAddToCartTest@17410c07]" started-at="2024-10-31T22:01:15 GMT" name="setup" finished-at="2024-10-31T22:01:22 GMT" duration-ms="7110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductAddToCart()[pri:1, instance:testCases.SauceAddToCartTest@17410c07]" started-at="2024-10-31T22:02:24 GMT" name="ProductAddToCart" finished-at="2024-10-31T22:02:29 GMT" duration-ms="4584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAddToCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceAddToCartTest@17410c07]" started-at="2024-10-31T22:02:29 GMT" name="close" finished-at="2024-10-31T22:02:29 GMT" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceAddToCartTest -->
+      <class name="testCases.SauceYourInfoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceYourInfoTest@6ee99964]" started-at="2024-10-31T22:01:38 GMT" name="setup" finished-at="2024-10-31T22:01:48 GMT" duration-ms="10224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddYourInformation()[pri:1, instance:testCases.SauceYourInfoTest@6ee99964]" started-at="2024-10-31T22:02:29 GMT" name="AddYourInformation" finished-at="2024-10-31T22:02:35 GMT" duration-ms="5793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddYourInformation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceYourInfoTest@6ee99964]" started-at="2024-10-31T22:02:35 GMT" name="close" finished-at="2024-10-31T22:02:35 GMT" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceYourInfoTest -->
+      <class name="testCases.SauceProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceProductTest@76a14c8d]" started-at="2024-10-31T22:01:32 GMT" name="setup" finished-at="2024-10-31T22:01:38 GMT" duration-ms="6174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission()[pri:1, instance:testCases.SauceProductTest@76a14c8d]" started-at="2024-10-31T22:02:16 GMT" name="LoginSubmission" finished-at="2024-10-31T22:02:20 GMT" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="Product()[pri:2, instance:testCases.SauceProductTest@76a14c8d]" started-at="2024-10-31T22:02:20 GMT" name="Product" finished-at="2024-10-31T22:02:24 GMT" duration-ms="3242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceProductTest@76a14c8d]" started-at="2024-10-31T22:02:24 GMT" name="close" finished-at="2024-10-31T22:02:24 GMT" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceProductTest -->
+      <class name="testCases.SauceLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:01:27 GMT" name="setup" finished-at="2024-10-31T22:01:32 GMT" duration-ms="4790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:01:48 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:01:55 GMT" duration-ms="6583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:01:55 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:02:07 GMT" duration-ms="11809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:02:07 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:02:12 GMT" duration-ms="4943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:02:12 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:02:15 GMT" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceLoginTest@73971965]" started-at="2024-10-31T22:02:15 GMT" name="close" finished-at="2024-10-31T22:02:16 GMT" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceLoginTest -->
+      <class name="testCases.SauceCheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceCheckoutTest@257ef9ed]" started-at="2024-10-31T22:01:22 GMT" name="setup" finished-at="2024-10-31T22:01:27 GMT" duration-ms="4469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Checkout()[pri:1, instance:testCases.SauceCheckoutTest@257ef9ed]" started-at="2024-10-31T22:02:35 GMT" name="Checkout" finished-at="2024-10-31T22:02:52 GMT" duration-ms="17122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceCheckoutTest@257ef9ed]" started-at="2024-10-31T22:02:52 GMT" name="close" finished-at="2024-10-31T22:02:53 GMT" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceCheckoutTest -->
+    </test> <!-- Test Suite Regression Chrome -->
+    <test started-at="2024-10-31T22:02:53 GMT" name="Test Suite Regression Firefox" finished-at="2024-10-31T22:04:15 GMT" duration-ms="81440">
+      <class name="testCases.SauceAddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceAddToCartTest@4e83a98]" started-at="2024-10-31T22:02:53 GMT" name="setup" finished-at="2024-10-31T22:03:00 GMT" duration-ms="7024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductAddToCart()[pri:1, instance:testCases.SauceAddToCartTest@4e83a98]" started-at="2024-10-31T22:03:48 GMT" name="ProductAddToCart" finished-at="2024-10-31T22:03:51 GMT" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAddToCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceAddToCartTest@4e83a98]" started-at="2024-10-31T22:03:51 GMT" name="close" finished-at="2024-10-31T22:03:53 GMT" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceAddToCartTest -->
+      <class name="testCases.SauceYourInfoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceYourInfoTest@17aa8a11]" started-at="2024-10-31T22:03:19 GMT" name="setup" finished-at="2024-10-31T22:03:27 GMT" duration-ms="7978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddYourInformation()[pri:1, instance:testCases.SauceYourInfoTest@17aa8a11]" started-at="2024-10-31T22:03:53 GMT" name="AddYourInformation" finished-at="2024-10-31T22:03:56 GMT" duration-ms="3704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddYourInformation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceYourInfoTest@17aa8a11]" started-at="2024-10-31T22:03:56 GMT" name="close" finished-at="2024-10-31T22:03:58 GMT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceYourInfoTest -->
+      <class name="testCases.SauceProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceProductTest@5377414a]" started-at="2024-10-31T22:03:12 GMT" name="setup" finished-at="2024-10-31T22:03:19 GMT" duration-ms="7160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission()[pri:1, instance:testCases.SauceProductTest@5377414a]" started-at="2024-10-31T22:03:42 GMT" name="LoginSubmission" finished-at="2024-10-31T22:03:44 GMT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="Product()[pri:2, instance:testCases.SauceProductTest@5377414a]" started-at="2024-10-31T22:03:44 GMT" name="Product" finished-at="2024-10-31T22:03:47 GMT" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceProductTest@5377414a]" started-at="2024-10-31T22:03:47 GMT" name="close" finished-at="2024-10-31T22:03:48 GMT" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceProductTest -->
+      <class name="testCases.SauceLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:06 GMT" name="setup" finished-at="2024-10-31T22:03:12 GMT" duration-ms="6495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:27 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:03:31 GMT" duration-ms="3776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:31 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:03:38 GMT" duration-ms="6590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:38 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:03:39 GMT" duration-ms="1653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:39 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:03:41 GMT" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceLoginTest@4fe533ff]" started-at="2024-10-31T22:03:41 GMT" name="close" finished-at="2024-10-31T22:03:42 GMT" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceLoginTest -->
+      <class name="testCases.SauceCheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceCheckoutTest@71b639d0]" started-at="2024-10-31T22:03:00 GMT" name="setup" finished-at="2024-10-31T22:03:06 GMT" duration-ms="5514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Checkout()[pri:1, instance:testCases.SauceCheckoutTest@71b639d0]" started-at="2024-10-31T22:03:58 GMT" name="Checkout" finished-at="2024-10-31T22:04:13 GMT" duration-ms="15660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceCheckoutTest@71b639d0]" started-at="2024-10-31T22:04:13 GMT" name="close" finished-at="2024-10-31T22:04:15 GMT" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceCheckoutTest -->
+    </test> <!-- Test Suite Regression Firefox -->
+    <test started-at="2024-10-31T22:04:15 GMT" name="Test Suite Regression Edge" finished-at="2024-10-31T22:05:27 GMT" duration-ms="72089">
+      <class name="testCases.SauceAddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceAddToCartTest@7ce85af2]" started-at="2024-10-31T22:04:15 GMT" name="setup" finished-at="2024-10-31T22:04:18 GMT" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductAddToCart()[pri:1, instance:testCases.SauceAddToCartTest@7ce85af2]" started-at="2024-10-31T22:05:00 GMT" name="ProductAddToCart" finished-at="2024-10-31T22:05:04 GMT" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAddToCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceAddToCartTest@7ce85af2]" started-at="2024-10-31T22:05:04 GMT" name="close" finished-at="2024-10-31T22:05:04 GMT" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceAddToCartTest -->
+      <class name="testCases.SauceYourInfoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceYourInfoTest@316acbb5]" started-at="2024-10-31T22:04:34 GMT" name="setup" finished-at="2024-10-31T22:04:39 GMT" duration-ms="5207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddYourInformation()[pri:1, instance:testCases.SauceYourInfoTest@316acbb5]" started-at="2024-10-31T22:05:04 GMT" name="AddYourInformation" finished-at="2024-10-31T22:05:09 GMT" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddYourInformation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceYourInfoTest@316acbb5]" started-at="2024-10-31T22:05:09 GMT" name="close" finished-at="2024-10-31T22:05:10 GMT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceYourInfoTest -->
+      <class name="testCases.SauceProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceProductTest@53a84ff4]" started-at="2024-10-31T22:04:29 GMT" name="setup" finished-at="2024-10-31T22:04:34 GMT" duration-ms="5460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission()[pri:1, instance:testCases.SauceProductTest@53a84ff4]" started-at="2024-10-31T22:04:55 GMT" name="LoginSubmission" finished-at="2024-10-31T22:04:57 GMT" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="Product()[pri:2, instance:testCases.SauceProductTest@53a84ff4]" started-at="2024-10-31T22:04:57 GMT" name="Product" finished-at="2024-10-31T22:04:59 GMT" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceProductTest@53a84ff4]" started-at="2024-10-31T22:04:59 GMT" name="close" finished-at="2024-10-31T22:05:00 GMT" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceProductTest -->
+      <class name="testCases.SauceLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:23 GMT" name="setup" finished-at="2024-10-31T22:04:29 GMT" duration-ms="5878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:39 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:04:43 GMT" duration-ms="4107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:43 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:04:51 GMT" duration-ms="7444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:51 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:04:53 GMT" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method signature="LoginSubmission(java.lang.String, java.lang.String)[pri:1, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:53 GMT" name="LoginSubmission" data-provider="loginData" finished-at="2024-10-31T22:04:54 GMT" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSubmission -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceLoginTest@5807efad]" started-at="2024-10-31T22:04:54 GMT" name="close" finished-at="2024-10-31T22:04:55 GMT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceLoginTest -->
+      <class name="testCases.SauceCheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.SauceCheckoutTest@56f730b2]" started-at="2024-10-31T22:04:18 GMT" name="setup" finished-at="2024-10-31T22:04:23 GMT" duration-ms="4573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Checkout()[pri:1, instance:testCases.SauceCheckoutTest@56f730b2]" started-at="2024-10-31T22:05:10 GMT" name="Checkout" finished-at="2024-10-31T22:05:26 GMT" duration-ms="16466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.SauceCheckoutTest@56f730b2]" started-at="2024-10-31T22:05:26 GMT" name="close" finished-at="2024-10-31T22:05:27 GMT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.SauceCheckoutTest -->
+    </test> <!-- Test Suite Regression Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
